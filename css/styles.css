@@ -1,0 +1,195 @@
+
+body{
+    font-family: montserrat;
+    font-weight: 400;
+}
+
+
+h1,h2,h3,h4,h5{
+    font-family: montserrat;
+}
+
+
+h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.big-heading{
+    font-weight: 900;
+    font-size: 3.4rem;
+    line-height: 1.5;
+}
+
+#title{
+    background-color: #ff4c68;
+    color:#fff;
+    
+}
+
+/* Tittle-Image */
+
+.tittle-image{
+    width: 25%;
+    transform: rotate(25deg);
+    margin-right: 4rem;
+    position: absolute;
+
+}
+
+#features{
+    background-color: white;
+    position: relative;
+
+}
+
+.mid{
+    padding: 0.5rem 2rem;
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.container-fluid-2{
+    padding: 7rem 8rem;
+    
+}
+.icons{
+    color: #ef8172;
+    width: 200px;
+    height: 3rem;
+    text-align: auto;
+    margin-left: 40%;
+    margin-bottom: 2rem;
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{
+    font-family: ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: monserrat;
+    font-weight: 300;
+}
+
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+.testimonial-text{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+@media (max-width:990px){
+
+    #title{
+        text-align: center;
+    }
+
+    .tittle-image{
+        position: static;
+        transform: rotate(0);
+        width: 100%;
+    }
+}
+
+
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    
+}
+
+.footer-h3{
+    font-family: montserrat;
+    font-weight: 900;
+    font-size:xxx-large;
+    color: #fff;
+}
+
+/* footer part */
+
+#footer{
+    text-align: center;
+    padding: 7% 7%;
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+.footer-icons{
+    padding: 30px 15px;
+    color: black;
+    
+}
